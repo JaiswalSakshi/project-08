@@ -83,3 +83,36 @@ nav img{
 .vector-img:first-child{
     margin-top: 500px;
 }
+
+/* Responsive */
+@media screen and (max-width: 700px) {
+    body{
+        overflow: auto;
+    }
+    nav .nav-items{
+        display: none;
+    }
+    .signin-btn{
+        float: right;
+        width: 15%;
+        height: 40px;
+    }
+    .intro-section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .left-section h1{
+        font-size: 50px;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .imgs-div img:last-child{
+        background-image: none;
+        height: 60%;
+        width: 60%;
+        margin-top: 10px;
+    }
+    .vector-img:first-child{
+        margin-top: 300px;
+    }
+}
